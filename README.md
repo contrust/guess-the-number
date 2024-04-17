@@ -2,6 +2,28 @@
 
 A game written in the Jack language.
 
+# Gameplay
+
+A user presses the PLAY button.
+
+The user creates a seed for generating a secret number.
+
+The secret number is within the range specified in the NUMBER RANGE box.
+
+The number of attemps to guess the secret number is limited, and the user can see it in the ATTEMPS REMAINED box.
+
+The user tries to guess the secret number by typing a number in the INPUT box.
+
+If the number is less than the secret number, then it's printed in the LESS column.
+
+If the number is greater than the secret number, then it's printed in the GREATER column.
+
+If the number is equal to the secret number, then the VICTORY window is drawn.
+
+If the user runs out of the given attemps, then the GAME OVER window is drawn.
+
+A game can be played multiple times until the EXIT button is pressed.
+
 # Demos
 
 ![Start](demos/start.gif)
