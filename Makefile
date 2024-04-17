@@ -11,3 +11,8 @@ run:
 	$(VM_EMULATOR_PATH)
 clear:
 	 if [ -d vm ]; then rm -r vm; fi
+auto_compiler_install:
+	apt install entr
+auto_compiler_run:
+	while sleep 1; do find src -name "*.jack" | entr -d make build; done
+
