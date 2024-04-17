@@ -37,7 +37,7 @@ Dependencies:
 - [the Jack compiler and the vm emulator](https://github.com/itoshkov/nand2tetris-emu/)
 - [entr](https://github.com/eradman/entr)
 
-Before using these commands, make sure that you created an [.env file](.env.example).
+Before using these commands, make sure that you created a [.env file](.env.example).
 
 | Command | Description |
 |---------|-------------|
