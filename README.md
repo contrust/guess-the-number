@@ -4,8 +4,11 @@ A game written in the Jack language.
 
 # Makefile commands
 
+Dependencies:
+- [the Jack compiler and the vm emulator](https://github.com/itoshkov/nand2tetris-emu/)
+- [entr](https://github.com/eradman/entr)
+
 Before using these commands, make sure that you created an [.env file](.env.example).
-Also, the auto_compiler_run command needs [entr](https://github.com/eradman/entr) to be installed.
 
 | Command | Description |
 |---------|-------------|
