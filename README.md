@@ -2,6 +2,13 @@
 
 A game written in the Jack language.
 
+# Demos
+
+![Start](demos/start.gif)
+![Victory](demos/victory.gif)
+![Lose](demos/lose.gif)
+![End](demos/end.gif)
+
 # Makefile commands
 
 Dependencies:
